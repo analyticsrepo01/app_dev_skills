@@ -270,3 +270,25 @@ gcloud run deploy cso-scheduling \
   --project my-project-0004-346516 \
   --quiet
 ```
+
+---
+
+# 📱 Mobile Web App & Wearable Integration Guide
+
+This section consolidates the layout tokens, geocoding telemetry configurations, and token-based wearable synchronizations engineered for the mobile-responsive lineage-health portal.
+
+## 🎨 Layout & Aesthetic Assets
+* **Glassmorphic Theme**: HSL color tokens, backdrop filters, and custom slide drawers.
+* **SVG Concentric Rings**: Native-feeling dynamic circular indicators for calorie and workout metrics.
+
+## 🗺️ Geocoding & Timezones
+* **OSM Nominatim API**: Resolves and reverse-geocodes browser coordinate arrays with active error boundary fallbacks.
+* **Translating Agenda Calendars**: Client-side timezone conversions aligning appointments and dates on-the-fly.
+
+## ⚡ Garmin Connect Sync
+* **Stateless API Gateway**: Exchanging bearer tokens and caching active cookies inside secure writable directories (`/tmp`) to avoid rate limit barriers.
+* **Logs Streams Console**: Green, red, cyan progress lines updating the UI of connection and dataset synchronizations.
+
+## Contents
+* [mobile_app_skills.md](mobile_app_skills.md) - Complete Mobile Layout & Hardware Integration Manual.
+

@@ -318,5 +318,16 @@ This repository deploys custom Google Antigravity (AGY) skills structured and fo
 * **Capabilities:** Parameterized query practices (injection prevention), connection pool recycling and timeouts, Alembic migration triggers, and indices performance optimization.
 * **Path:** [skills/postgres/SKILL.md](skills/postgres/SKILL.md)
 
+### ☁️ Google Cloud SQL Management Skill (`skills/cloud_sql`)
+* **Purpose:** Instructs the agent on secure connection, monitoring, and IAM database credentials for Google Cloud SQL instances.
+* **Capabilities:** Cloud SQL Auth Proxy configuration, IAM-based passwordless connections, and backup validation checks.
+* **Path:** [skills/cloud_sql/SKILL.md](skills/cloud_sql/SKILL.md)
+
+### 📊 Google BigQuery Analytical Engineering Skill (`skills/bigquery`)
+* **Purpose:** Outlines analytical warehouse schema engineering, partitioned/clustered tables, and low-cost querying.
+* **Capabilities:** SQL Partitioning and Clustering setup, parameterized Python SDK BigQuery queries, and real-time JSON streaming insertion.
+* **Path:** [skills/bigquery/SKILL.md](skills/bigquery/SKILL.md)
+
+
 
 

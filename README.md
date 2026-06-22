@@ -292,3 +292,20 @@ This section consolidates the layout tokens, geocoding telemetry configurations,
 ## Contents
 * [mobile_app_skills.md](mobile_app_skills.md) - Complete Mobile Layout & Hardware Integration Manual.
 
+---
+
+## 🤖 7. Deployed Antigravity Custom Skills
+
+This repository deploys custom Google Antigravity (AGY) skills structured and formatted for immediate loading into agentic developer environments.
+
+### 📔 NotebookLM Enterprise API Skill (`skills/notebooklm`)
+* **Purpose:** Outlines programmatic integration with Google NotebookLM Enterprise via the Discovery Engine gateway.
+* **Capabilities:** Programmatic creation, metadata retrieval, session listing, deletion, and link structures for browser notebooks.
+* **Path:** [skills/notebooklm/SKILL.md](skills/notebooklm/SKILL.md)
+
+### 🎨 Nanobana: Imagen 3 Image Generation Skill (`skills/nanobana`)
+* **Purpose:** Enables programmatic high-fidelity image and slide creation using Google's `imagen-3.0-generate-002` preview vision models.
+* **Capabilities:** Full Python SDK templates, REST endpoint configurations, and aspect-ratio customizations for widescreen presentation assets.
+* **Path:** [skills/nanobana/SKILL.md](skills/nanobana/SKILL.md)
+
+

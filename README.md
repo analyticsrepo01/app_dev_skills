@@ -328,6 +328,12 @@ This repository deploys custom Google Antigravity (AGY) skills structured and fo
 * **Capabilities:** SQL Partitioning and Clustering setup, parameterized Python SDK BigQuery queries, and real-time JSON streaming insertion.
 * **Path:** [skills/bigquery/SKILL.md](skills/bigquery/SKILL.md)
 
+### 💻 Google Antigravity CLI Skill (`skills/google-agent-cli`)
+* **Purpose:** Instructs developer agents on mastering Google Antigravity CLI (`agy`) configuration, settings, keyboard shortcuts, and interactive TUI commands.
+* **Capabilities:** Shortcut keys, advanced CLI interactive commands (/context, /diff, /fork), `settings.json` schemas, and sandbox secure environments.
+* **Path:** [skills/google-agent-cli/SKILL.md](skills/google-agent-cli/SKILL.md)
+
+
 
 
 

@@ -308,4 +308,15 @@ This repository deploys custom Google Antigravity (AGY) skills structured and fo
 * **Capabilities:** Full Python SDK templates, REST endpoint configurations, and aspect-ratio customizations for widescreen presentation assets.
 * **Path:** [skills/nanobana/SKILL.md](skills/nanobana/SKILL.md)
 
+### 🐙 GitHub and Git Automation Skill (`skills/github`)
+* **Purpose:** Automates clean version control pipelines, branch strategies, Conventional Commits, Pull Request submissions, and safe conflict resolution flows.
+* **Capabilities:** Programmatic PR workflows with GitHub CLI (`gh`), safe rebasing protocol, commit standards, and merge-conflict handling.
+* **Path:** [skills/github/SKILL.md](skills/github/SKILL.md)
+
+### 🐘 PostgreSQL Database Management Skill (`skills/postgres`)
+* **Purpose:** Manages robust database structures, Alembic migration cycles, and SQLAlchemy pool connections.
+* **Capabilities:** Parameterized query practices (injection prevention), connection pool recycling and timeouts, Alembic migration triggers, and indices performance optimization.
+* **Path:** [skills/postgres/SKILL.md](skills/postgres/SKILL.md)
+
+
 

@@ -9,7 +9,36 @@ Use this skill when you need to configure, debug, or optimize the interactive te
 
 ---
 
-## 1. Quick Keyboard & Surface Shortcuts
+## 1. Getting Started & Installation
+
+The **`agents-cli`** is a unified command-line tool for the full agent development lifecycle.
+
+### 📋 Prerequisites
+*   **Python 3.11+**
+*   **uv** (recommended Python package manager)
+*   **Node.js** (for skill installation and registry resolving)
+*   **gcloud SDK** (optional, for Cloud credential forwarding)
+
+### 🚀 Quick Setup
+The recommended method to install `agents-cli` globally and add default agent skills is:
+```bash
+uvx google-agents-cli setup
+```
+This registers the core CLI and deploys the framework-specific skills under `~/.agents/skills/`.
+
+#### Alternative Installation:
+*   To install the CLI as a standalone global tool:
+    ```bash
+    uv tool install google-agents-cli
+    ```
+*   To only bootstrap development skills inside your active project:
+    ```bash
+    npx skills add google/agents-cli
+    ```
+
+---
+
+## 2. Quick Keyboard & Surface Shortcuts
 
 Ensure rapid and seamless navigation across the terminal-based user interface (TUI):
 
@@ -19,7 +48,7 @@ Ensure rapid and seamless navigation across the terminal-based user interface (T
 
 ---
 
-## 2. CLI Interactive Commands
+## 3. CLI Interactive Commands
 
 The `agy` environment includes specific TUI commands to manage developer sessions, list context, and configure live run modes:
 
@@ -34,7 +63,7 @@ The `agy` environment includes specific TUI commands to manage developer session
 
 ---
 
-## 3. Configuration Management (`settings.json`)
+## 4. Configuration Management (`settings.json`)
 
 The global configuration is stored under `~/.gemini/antigravity-cli/settings.json`.
 

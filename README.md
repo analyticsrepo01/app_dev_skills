@@ -333,6 +333,12 @@ This repository deploys custom Google Antigravity (AGY) skills structured and fo
 * **Capabilities:** Shortcut keys, advanced CLI interactive commands (/context, /diff, /fork), `settings.json` schemas, and sandbox secure environments.
 * **Path:** [skills/google-agent-cli/SKILL.md](skills/google-agent-cli/SKILL.md)
 
+### ⚡ Gemini 3.5 Flash Skill (`skills/gemini_3_5_flash`)
+* **Purpose:** Explains integration, features, and optimizations of Gemini 3.5 Flash with the modern `google-genai` SDK.
+* **Capabilities:** Client setup, stateful chat/Interactions API, Thinking Level (`thinking_level`) configuration, granular `media_resolution` for multimodal assets, and automatic/manual Thought Signature handling.
+* **Path:** [skills/gemini_3_5_flash/SKILL.md](skills/gemini_3_5_flash/SKILL.md)
+
+
 
 
 
